@@ -1,0 +1,75 @@
+# 🌱 LifeTracker – Wellness, Habits & Daily Well-Being App
+
+**LifeTracker** is a wellness-focused mobile application designed to help users build healthier daily routines, track habits, monitor mood changes, and maintain overall well-being.  
+Developed in **Android Studio using Kotlin**, the app focuses on simplicity, mindfulness, and smooth user experience, aligning with the learning outcomes of the Mobile Application Development module.
+
+---
+
+## ✨ Key Features
+
+### 📌 1. Habit Tracker
+- Users can add their daily tasks and habits at the start of the day  
+- Each habit can be marked as **Pending** or **Completed**  
+- Users can visually track daily progress through simple UI indicators  
+- Encourages consistency and self-discipline
+
+---
+
+### 😊 2. Mood Tracking
+- Users can log their mood throughout the day  
+- Each mood entry is associated with expressive **emoji icons**  
+- Displays mood patterns with time stamps  
+- Helps users understand emotional cycles throughout the day  
+- Useful for self-awareness and emotional well-being
+
+---
+
+### 💧 3. Hydration Monitoring
+- Users can input their daily hydration levels  
+- App allows selection of different beverage types  
+- Automatically updates a **progress circle** based on fluid intake  
+- Shows hydration status using emojis (good/poor level indicators)  
+- Encourages maintaining proper health
+
+---
+
+### ⏰ 4. Reminders & Notifications
+- Users can set customizable reminders (e.g., *"Stay hydrated!"*)  
+- Sends timely notifications  
+- Helps busy users practice self-care consistently
+
+---
+
+## 🎨 UI/UX & Design Approach
+- Designed using the **60-30-10 color rule** for professional aesthetic balance  
+- Smooth navigation using:
+  - **Fragment-based navigation**
+  - **Bottom navigation / smooth transitions**
+- Clean, responsive layouts enhancing usability  
+- User-friendly interface with meaningful icons and emojis  
+
+---
+
+## 🏗️ Technical Highlights
+- **Android Studio (Kotlin)**
+- Fragment navigation & state management  
+- Local data handling for habit, mood & hydration tracking  
+- Notifications & reminder scheduling  
+- Reusable UI components & modular design  
+- Follows principles of mobile UI/UX best practices  
+
+---
+
+## 📱 App Modules Overview
+- **Habit Tracker Screen**
+- **Mood Tracker Screen**
+- **Hydration Progress Screen**
+- **Reminder / Notification Setup**
+- **Daily Summary / Progress Overview**
+
+---
+
+## 🚀 How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YourUsername/LifeTracker.git
