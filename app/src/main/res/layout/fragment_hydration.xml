@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_light"
+    android:padding="16dp"
+    tools:ignore="NamespaceTypo">
+
+    <!-- Date Header -->
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturday, 9 October 2022"
+        android:textSize="14sp"
+        android:textColor="@color/gray_500"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Goal Header -->
+    <TextView
+        android:id="@+id/text_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎯 HYDRATION GOAL: 2000ml"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/secondary"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Circular Progress View -->
+    <com.example.lifetracker.views.CircularProgressView
+        android:id="@+id/circular_progress"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Progress Text -->
+    <TextView
+        android:id="@+id/text_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1350ml / 2000ml"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/secondary"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Next Reminder -->
+    <TextView
+        android:id="@+id/text_next_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next: 25 minutes"
+        android:textSize="14sp"
+        android:textColor="@color/gray_500"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Today's Drinks Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TODAY'S DRINKS"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/secondary"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Drink History -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_water_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Empty State for Drinks -->
+    <TextView
+        android:id="@+id/text_empty_drinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No drinks logged today!\nTap + to add your first drink."
+        android:textSize="13sp"
+        android:textColor="@color/gray_500"
+        android:gravity="center"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_add_water"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/accent"
+            android:text="＋ ADD"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_stats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/success"
+            android:text="📊 STATS"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

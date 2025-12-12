@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.lifetracker.ui.fragments.HomeFragment"
+        android:label="LifeTracker"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_habitsFragment"
+            app:destination="@id/habitsFragment" />
+
+    </fragment>
+
+    <!-- Habits Fragment -->
+    <fragment
+        android:id="@+id/habitsFragment"
+        android:name="com.example.lifetracker.ui.fragments.HabitsFragment"
+        android:label="My Habits"
+        tools:layout="@layout/fragment_habits" />
+
+</navigation>

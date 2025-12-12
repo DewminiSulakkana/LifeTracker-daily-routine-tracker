@@ -1,0 +1,44 @@
+<resources>
+    <!-- Your existing colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Your app colors -->
+    <color name="primary_light">#FFF5F0FF</color>
+    <color name="primary_surface">#FFEDE7F6</color>
+    <color name="secondary">#FF3949AB</color>
+    <color name="secondary_variant">#FF303F9F</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+    <color name="accent">#FF7C4DFF</color>
+    <color name="accent_variant">#FF651FFF</color>
+    <color name="success">#FF4CAF50</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="error">#FFF44336</color>
+    <color name="gray_200">#FFEEEEEE</color>
+    <color name="gray_500">#FF9E9E9E</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="gray_300">#FFE0E0E0</color>
+    <color name="gray_400">#FFBDBDBD</color>
+
+    <!-- CATEGORY COLORS - Light & Beautiful -->
+    <color name="category_morning_bg">#FFFFF9C4</color>    <!-- Light Yellow -->
+    <color name="category_health_bg">#FFC8E6C9</color>     <!-- Light Green -->
+    <color name="category_work_bg">#FFE3F2FD</color>       <!-- Light Blue -->
+    <color name="category_evening_bg">#FFE1BEE7</color>    <!-- Light Purple -->
+    <color name="category_night_bg">#FF212121</color>      <!-- Dark Gray -->
+    <color name="category_social_bg">#FFFFCDD2</color>     <!-- Light Pink -->
+    <color name="category_learning_bg">#FFD1C4E9</color>   <!-- Light Lavender -->
+    <color name="category_fitness_bg">#FFB3E5FC</color>    <!-- Light Cyan -->
+    <color name="category_selfcare_bg">#FFDCEDC8</color>   <!-- Light Mint -->
+    <color name="category_chores_bg">#FFFFF3E0</color>     <!-- Light Orange -->
+    <color name="category_creative_bg">#FFE0F2F1</color>   <!-- Light Teal -->
+    <color name="category_financial_bg">#FFFCE4EC</color>  <!-- Light Rose -->
+
+    <color name="holo_green_light">#E8F5E8</color>
+
+</resources>

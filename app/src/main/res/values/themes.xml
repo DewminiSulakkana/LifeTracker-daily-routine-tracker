@@ -1,0 +1,9 @@
+<resources>
+    <!-- Your existing themes -->
+
+    <!-- Add this for widget transparency -->
+    <style name="Theme.LifeTracker.Widget" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>
